@@ -1,0 +1,91 @@
+.MainArea{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+}
+.Sidebar{
+    display: grid;
+    width:17%;
+    background-color: #f9f9f9;
+    border-radius: 0 0px 30px 0px;
+}
+.Sidebar>div{
+    height: auto;
+}
+.Home{
+    border-bottom: 1px black solid;
+}
+.Quick_Icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    padding: 10px;
+}
+.Quick_Icon>div{
+    padding: 0 12px;
+}
+/*Main*/
+.Main{
+    display: grid;
+    width: 83%;
+    margin-left: 25px;
+}
+.Main>div{
+    margin: 8px 2px;
+}
+.Videos{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+.Video{
+    justify-content: space-around;
+    height: 274px;
+    left: 0;
+    width: 250px;
+    margin: 15px;
+}
+.Logo{
+    display: flex;
+}
+.Logo>div{
+    padding: 0 12px;
+}
+.view{
+    font-size: 1.5rem;
+    color: rgb(29, 27, 27);
+}
+.Videoss{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: .1px black solid;
+}
+button{
+    border: none;
+    font-size: 2.5rem;
+    background: none;
+    margin: 0 12px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+video{
+    border-radius: 10px;
+}
+.card{
+    height: 500px;
+}
+.unlike{
+    margin-left: 30%;
+}
+.like{
+    margin-left: 5%;
+}
+textarea{
+    font-size: 2rem !important;
+}
+.btn-secondary{
+    font-size: 1em;
+}
